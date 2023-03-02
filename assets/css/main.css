@@ -1,0 +1,39 @@
+:root {
+    /* Colors */
+    --primary-color: #F216A5;
+    --secondary-color: #BF1191;
+    --terciary-color: #8C0D6A;
+    --quaternary-color: #590844;
+    --quinary-color: #0D0D0D;
+    --ligth-color: #fff;
+    --dark-color: #000;
+    --grayscale: #555;
+
+    /* Margins */
+    --extra-small-size: 4px;
+    --small-size: 8px;
+    --medium-size: 16px;
+    --large-size: 32px;
+    --extra-large-size: 64px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: rgb(242,22,165);
+    background: linear-gradient(49deg, var(--primary-color) 11%, var(--secondary-color)56%, var(--terciary-color) 100%);
+    border-radius: 0 0 5px 5px;
+}
+
+.header__name {
+    color: var(--ligth-color);
+}
+
+.header__social-icons {
+    color: var(--ligth-color);
+}
